@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using RPG_Bot.Core.UserAccounts;
 using Newtonsoft.Json;
 using System.IO;
@@ -17,7 +13,6 @@ namespace RPG_Bot.Core
         {
             string json = JsonConvert.SerializeObject(accounts, Formatting.Indented);
             File.WriteAllText(filePath, json);
-
         }
 
         // Get all userAccounts

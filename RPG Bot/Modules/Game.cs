@@ -59,6 +59,5 @@ namespace RPG_Bot.Modules
 
             await Context.Channel.SendMessageAsync($"{target.Mention} is Level {account.Level} and has {account.EXP} exp.");
         }
-        
     }
 }
