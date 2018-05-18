@@ -222,6 +222,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\readme.txt" />
     <Content Include="Data\RPGBotDb.mdf" />
     <Content Include="Data\RPGBotDb_log.ldf">
       <DependentUpon>RPGBotDb.mdf</DependentUpon>

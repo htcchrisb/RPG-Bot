@@ -1,0 +1,1 @@
+﻿This "Data" folder contains an empty database for this bot to use. When first deploying this bot be sure to copy this folder into the same directory as the bot's executable.
