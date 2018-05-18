@@ -8,6 +8,8 @@ using Newtonsoft.Json;
 
 namespace RPG_Bot
 {
+    // test change 
+
     class Config
     {
         private const string configFolder = "Resources";
