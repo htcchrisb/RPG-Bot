@@ -81,3 +81,4 @@ namespace RPG_Bot.Data
         public bool IsActiveCharacter { get; set; }
     }
 }
+  
